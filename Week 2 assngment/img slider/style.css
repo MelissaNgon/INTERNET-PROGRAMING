@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 400px;
+    flex: 0 0 auto;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.nav-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #45a049;
+}
