@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    text-align: center;
+    background-color: pink
+    color: black
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    display: none;
+    margin-top: 10px;
+}
